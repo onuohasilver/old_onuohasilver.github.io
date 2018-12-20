@@ -12,8 +12,8 @@
     {% if site.author.github %}
       <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
-    {% if site.author.gitlab %}
-      <li><a href="https://gitlab.com/{{ site.author.gitlab }}"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a></li>
+    {% if site.author.zindi %}
+      <li><a href="https://zindi.com/{{ site.author.zindi }}"><i class="fab fa-fw fa-computer" aria-hidden="true"></i> Zindi</a></li>
     {% endif %}
     {% if site.author.kaggle %}
       <li><a href="https://kaggle.com/{{ site.author.kaggle }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Kaggle</a></li>
@@ -22,4 +22,3 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
