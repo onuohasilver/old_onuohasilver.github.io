@@ -88,10 +88,10 @@ author:
   avatar           : "profile.png"
   bio              : "A budding data scientist, being enormously helped by the internet."
   location         : "Port-Harcourt, Nigeria"
-  email            :
+  email            : "onuohasilver9@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
+  kaggle           : "onuohadata"
   codepen          :
   dribbble         :
   flickr           :
@@ -103,7 +103,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "dataoptimal" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "obinna-onuoha-85ab10158" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
