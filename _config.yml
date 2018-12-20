@@ -5,17 +5,17 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name"
+title                    : "My Data Adventures"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "Data Science Portfolio"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "Onuoha Obinna"
+description              : "A collection of my works and the thoughts that run through my mind as I learn to code."
+url                      : https://onuohasilver.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "onuohasilver/onuohasilver.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -62,9 +62,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "iam_nevana"
 facebook:
-  username               :
+  username               : "onuohasilver"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -84,10 +84,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
-  location         : "Your Location"
+ name             : "Onuoha Obinna"
+  avatar           : "profile.png"
+  bio              : "A budding data scientist, being enormously helped by the internet."
+  location         : "Port-Harcourt, Nigeria"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -95,9 +95,9 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "onuohasilver"
   foursquare       :
-  github           : "Your Github"
+  github           : "onuohasilver"
   gitlab           :
   google_plus      :
   keybase          :
