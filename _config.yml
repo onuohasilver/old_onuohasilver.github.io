@@ -84,7 +84,7 @@ analytics:
 
 # Site Author
 author:
- name             : "Onuoha Obinna"
+  name             : "Onuoha Obinna"
   avatar           : "profile.png"
   bio              : "A budding data scientist, being enormously helped by the internet."
   location         : "Port-Harcourt, Nigeria"
