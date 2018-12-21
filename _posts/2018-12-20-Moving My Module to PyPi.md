@@ -21,14 +21,15 @@ I think it is only fair that I put together the exact steps I
 followed.
 
 
-[*The First Link I used, a blog post by jetbrains.*]
-(https://blog.jetbrains.com/pycharm/2017/05/how-to-publish-your-package-on-pypi/)
+[**The First Link I used, a blog post by jetbrains, Click here**](https://blog.jetbrains.com/pycharm/2017/05/how-to-publish-your-package-on-pypi/)
+
 I kept on getting an error while following the steps, then I quickly 
 went for a quick search on google. 
 Found out the link contained in the .pypirc file as indicated in the jetbrain
 instructional material was deprecated. So I quickly went over to the python
 website and found the current link and kaboom! it just worked like magic
-[*Now this fixed it*](https://packaging.python.org/guides/migrating-to-pypi-org/)
+
+[**Now this fixed it, Click here**](https://packaging.python.org/guides/migrating-to-pypi-org/)
 
 Now the codeaid module can be installed by using this simple line of code
 
