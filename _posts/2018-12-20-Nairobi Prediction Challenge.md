@@ -1,5 +1,5 @@
 ---
-title: "Nairobi Traffuc Prediction challenge on Zindi"
+title: "Nairobi Traffic Prediction challenge on Zindi"
 date: 2019-03-22
 tags: [machine learning, data science, competitions]
 header:
