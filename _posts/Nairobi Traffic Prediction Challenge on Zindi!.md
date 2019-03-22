@@ -1,4 +1,11 @@
-
+---
+title: "Nairobi Traffuc Prediction challenge on Zindi"
+date: 2019-03-22
+tags: [machine learning, data science, competitions]
+header:
+excerpt: "Machine Learning Competition with comprehensive data exploration"
+mathjax: "true"
+---
 ![title](taxi.jpg)
 
 ## Competition Description
