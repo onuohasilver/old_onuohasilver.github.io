@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: TAXI.jpg # Add image post (optional)
 tags: [Competition, EDA] # add tag
 ---
-![Nairobi Taxis]({{site.baseurl}}/assets/img/TAXI.jpg)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/taxi-picture.jpg)
 
 ## Competition Description
 
