@@ -1,8 +1,15 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Add a comment to make this file sass-y.
+# Change this file for any custom CSS.
 ---
 
-@charset "utf-8";
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display:inline;
+}
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax",
+    "stars"
+;
