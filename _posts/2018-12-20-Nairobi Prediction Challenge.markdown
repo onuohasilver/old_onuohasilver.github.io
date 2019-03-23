@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: TAXI.jpg # Add image post (optional)
 tags: [Competition, EDA] # add tag
 ---
-![title](taxi.jpg)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/TAXI.jpg)
 
 ## Competition Description
 
@@ -49,7 +49,7 @@ train_idx = len(train) #getting the length of the to enable separation later
 
 ```
 
-
+view a subset of the train set to get an idea of the kind of data we are working with.
 ```python
 #view subset of train
 train.head()
@@ -371,7 +371,7 @@ plt.xticks(rotation=70)
 
 
 
-![png](output_20_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_20_1.png)
 
 
 
@@ -389,7 +389,7 @@ plt.xticks(rotation=70)
 
 
 
-![png](output_21_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_21_1.png)
 
 
 
@@ -407,7 +407,7 @@ plt.xticks(rotation=70)
 
 
 
-![png](output_22_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_22_1.png)
 
 
 
@@ -426,7 +426,7 @@ plt.title('Distribution of number of tickets purchased')
 
 
 
-![png](output_23_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_23_1.png)
 
 
 
@@ -550,7 +550,7 @@ plt.title('Number of taxi rides per month')
 
 
 
-![png](output_25_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_25_1.png)
 
 
 
@@ -570,7 +570,7 @@ plt.title('Number of taxi rides distributed across specific days of the months')
 
 
 
-![png](output_26_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_26_1.png)
 
 
 
@@ -704,7 +704,7 @@ plt.title('Number of taxi rides distributed across specific days of the months')
 
 
 
-![png](output_29_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_29_1.png)
 
 
 
@@ -724,7 +724,7 @@ plt.title('Number of taxi rides distributed across specific days of the months')
 
 
 
-![png](output_30_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_30_1.png)
 
 
 
@@ -744,7 +744,7 @@ plt.title('Number of taxi rides distributed across specific days of the months')
 
 
 
-![png](output_31_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_31_1.png)
 
 
 
@@ -920,7 +920,7 @@ plt.title('Countplot for the taxi rides on non-weekends and weekends')
 
 
 
-![png](output_35_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_35_1.png)
 
 
 
@@ -939,7 +939,7 @@ plt.title('Number of taxi rides distributed across weekends and none weekends')
 
 
 
-![png](output_36_1.png)
+![Nairobi Taxis]({{site.baseurl}}/assets/img/output_36_1.png)
 
 
 
