@@ -5,7 +5,7 @@
 
 .wrapper { max-width: $default-width; margin: 0 auto; padding: 60px 20px; }
 
-.user-profile { position: absolute; top: 60px; width: 100%; max-width: 300px; text-align: center; @include transition(right .3s ease-in-out);
+.user-profile { position: absolute; top: 60px; width: 100%; max-width: 250px; text-align: center; @include transition(right .3s ease-in-out);
 	&.fixed { position: fixed; }
 	.compact-header {
 		.avatar { max-width: 140px; max-height: 140px; border-radius: 50%; margin: 0 auto 25px; }
@@ -66,8 +66,8 @@
 			}
 		}
 	}
-	.post { position: relative; margin: 40px 0 0; padding: 40px 40px 80px; border: 1px solid $grey-color-lightest; background: $white; box-shadow: 0 2px 3px rgba($black,.05);
-		&.page { padding: 40px; }
+	.post { position: relative; margin: 10px 0 0; padding: 10px 10px 10px; border: 1px solid $grey-color-lightest; background: $white; box-shadow: 0 2px 3px rgba($black,.05);
+		&.page { padding: 10px; }
 
 		&:first-of-type { margin: 0; }
 
