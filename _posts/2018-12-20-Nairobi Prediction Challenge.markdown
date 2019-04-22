@@ -8,13 +8,9 @@ category: competition
 
 ## Competition Description
 
-<div style=text-align:justify>
+
 
 Nairobi is one of the most heavily congested cities in Africa. Each day thousands of Kenyans make the trip into Nairobi from towns such as Kisii, Keroka, and beyond for work, business, or to visit friends and family. The journey can be long, and the final approach into the city can impact the length of the trip significantly depending on traffic. How do traffic patterns influence people’s decisions to come into the city by bus and which bus to take? Does knowing the traffic patterns in Nairobi help anticipate the demand for particular routes at particular times?
-
-
-</div>
-
 
 <!--more-->
 
@@ -188,8 +184,8 @@ ridecount.columns=['ride_id','number_of_tickets']
 ```
 
 
-</div>
-<div style=text-align:justify>
+
+
 Examining different ride id's buttresses the idea that all **ride_id's** were vehicles that left at the same time and on the same day.
 the above line of code can be uncommented to see an example!
 
