@@ -2,9 +2,7 @@
 layout: post
 title: Nairobi Traffic Prediction Challenge.
 date: 2019-03-23 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: taxi-picture.jpg # Add image post (optional)
-tags: [Competition, EDA] # add tag
+category: competition
 ---
 ![Nairobi Taxis](http://3lq1ku40fh612q5lii5rfl0n.wpengine.netdna-cdn.com/wp-content/uploads/2016/02/phoenixtraffic.jpg)
 
@@ -18,7 +16,10 @@ The aim of the competition is to create a predictive model using traffic data pr
 The data used to train the model will be historic hourly traffic patterns in Nairobi and historic ticket purchasing data for 14 bus routes into Nairobi from October 2017 to April 2018, and includes the place or origin, the scheduled time of departure, the channel used for the purchase, the type of vehicle, the capacity of the vehicle, and the assigned seat number. Zindi competitors will be allowed to create their own customized traffic datasets using the Uber Movement platform.
 
 This resulting model can be used by Mobiticket and bus operators to anticipate customer demand for certain rides, to manage resources and vehicles more efficiently, to offer promotions and sell other services more effectively, such as micro-insurance, or even improve customer service by being able to send alerts and other useful information to customers.
+</div>
+
 <!--more-->
+
 The solutions to this challenge are the first step towards solving Nairobi's traffic problems. We look forward to taking this journey with you!
 
 This competition is sponsored by Uber , Mobiticket, and insight2impact.
@@ -358,7 +359,7 @@ train['day']=train.travel_date.dt.day
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.boxplot(x='travel_from',y='number_of_tickets',data=train)
 plt.xticks(rotation=70)
 ```
@@ -377,7 +378,7 @@ plt.xticks(rotation=70)
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.barplot(x='car_type',y='number_of_tickets',data=train)
 plt.xticks(rotation=70)
 ```
@@ -395,7 +396,7 @@ plt.xticks(rotation=70)
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.countplot(x='car_type',data=train)
 plt.xticks(rotation=70)
 ```
@@ -413,7 +414,7 @@ plt.xticks(rotation=70)
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.countplot(x='number_of_tickets',data=train)
 plt.xticks(rotation=0)
 plt.title('Distribution of number of tickets purchased')
@@ -536,7 +537,7 @@ train.head()
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.countplot(x='month',data=train)
 plt.xticks(rotation=0)
 plt.title('Number of taxi rides per month')
@@ -556,7 +557,7 @@ plt.title('Number of taxi rides per month')
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.countplot(x='day',data=train)
 plt.xticks(rotation=0)
 plt.title('Number of taxi rides distributed across specific days of the months')
@@ -690,7 +691,7 @@ train.loc[(train['hour']>=12)&(train['hour']<=24),'hours']='Rest of the day'
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.violinplot(x='hours',y='number_of_tickets',data=train)
 plt.xticks(rotation=0)
 plt.title('Number of taxi rides distributed across specific days of the months')
@@ -730,7 +731,7 @@ plt.title('Number of taxi rides distributed across specific days of the months')
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.lmplot(x='day',y='number_of_tickets',data=train)
 plt.xticks(rotation=0)
 plt.title('Number of taxi rides distributed across specific days of the months')
@@ -906,7 +907,7 @@ train.head()
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.countplot(x='is_weekend',data=train)
 plt.xticks(rotation=0)
 plt.title('Countplot for the taxi rides on non-weekends and weekends')
@@ -926,7 +927,7 @@ plt.title('Countplot for the taxi rides on non-weekends and weekends')
 
 
 ```python
-sns.set(rc={'figure.figsize':(10,10)})
+sns.set(rc={'figure.figsize':(6,6)})
 sns.swarmplot(x='is_weekend',y='number_of_tickets',data=train)
 plt.xticks(rotation=0)
 plt.title('Number of taxi rides distributed across weekends and none weekends')
