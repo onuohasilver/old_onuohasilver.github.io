@@ -1,23 +1,22 @@
 # General Settings
-name: Alvaro Carril
-job_title: econ research &amp; computer tools
-email: acarril@princeton.edu
-description: I'm an economics PhD student @Princeton. I work with computers.
+name: Onuoha Obinna
+job_title: Machine learning student
+email: onuohasilver9@gmail.com
+description: I'm a graduate computer engineer with interest in machine learning. I work with computers.
 avatar: /assets/pics/acarril-princeton.jpg
 favicon: /assets/icon/analytics-trans.png
-twitter_handler: alvcarril
-analytics_code: UA-54241026-2
-disqus: alvarocarril
+twitter_handler: onuohadata
+disqus: onuohasilver
 
 # Social Accounts
 social_networks:
--  { name: facebook, url: '' }
--  { name: twitter, url: 'http://twitter.com/alvcarril' }
--  { name: instagram, url: 'https://www.instagram.com/alvcarril/' }
+-  { name: facebook, url: 'http://facebook.com/onuohasilver' }
+-  { name: twitter, url: 'http://twitter.com/onuohadata' }
+-  { name: instagram, url: 'https://www.instagram.com/onuohasilver/' }
 -  { name: google-plus, url: '' }
--  { name: linkedin, url: '' }
+-  { name: linkedin, url: 'http://linkedin.com/obinna-onuoha-85ab10158' }
 -  { name: skype, url: '' }
--  { name: github, url: 'https://github.com/acarril' }
+-  { name: github, url: 'https://github.com/onuohasilver' }
 -  { name: codepen, url: '' }
 -  { name: stack-overflow, url: '' }
 -  { name: dribbble, url: '' }
