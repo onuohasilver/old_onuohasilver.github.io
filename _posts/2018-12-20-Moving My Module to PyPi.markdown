@@ -6,7 +6,7 @@ categories: instructional
 ---
 ![](https://pypi.org/static/images/logo-large.72ad8bf1.svg)
 
-</div>
+
 
 <div style="text-align:center"> 
 
@@ -28,6 +28,8 @@ exact way to accomplish this and since I have finally achieved it
 I think it is only fair that I put together the exact steps I 
 followed.
 </div>
+
+<!--more-->
 
 [**The First Link I used, a blog post by jetbrains, Click here**](https://blog.jetbrains.com/pycharm/2017/05/how-to-publish-your-package-on-pypi/)
 <div style="text-align: justify">  
