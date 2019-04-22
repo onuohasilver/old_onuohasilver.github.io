@@ -1,35 +1,114 @@
-title: Hello, world! I'm Onuoha Obinna
-description: > # this means to ignore newlines until "baseurl:"
-  "A collection of my works and the thoughts that run through my mind as I learn to code. all things data science"
-permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# General Settings
+name: Alvaro Carril
+job_title: econ research &amp; computer tools
+email: acarril@princeton.edu
+description: I'm an economics PhD student @Princeton. I work with computers.
+avatar: /assets/pics/acarril-princeton.jpg
+favicon: /assets/icon/analytics-trans.png
+twitter_handler: alvcarril
+analytics_code: UA-54241026-2
+disqus: alvarocarril
 
-# Author Settings
-author: "Onuoha Obinna" # add your name
-author-img: "onuoha-obinna.jpg" # add your photo
-about-author: "A budding data scientist, being enormously helped by the internet." # add description
-social-twitter: "onuoha_data" # add your Twitter handle
-social-facebook: "onuohasilver" # add your Facebook handle
-social-github: "onuohasilver" # add your Github handle
-social-linkedin: "obinna-onuoha-85ab10158" # add your Linkedin handle
-social-email: "onuohasilver9@gmail.com" # add your Email address
+# Social Accounts
+social_networks:
+-  { name: facebook, url: '' }
+-  { name: twitter, url: 'http://twitter.com/alvcarril' }
+-  { name: instagram, url: 'https://www.instagram.com/alvcarril/' }
+-  { name: google-plus, url: '' }
+-  { name: linkedin, url: '' }
+-  { name: skype, url: '' }
+-  { name: github, url: 'https://github.com/acarril' }
+-  { name: codepen, url: '' }
+-  { name: stack-overflow, url: '' }
+-  { name: dribbble, url: '' }
+-  { name: behance, url: '' }
+-  { name: pinterest, url: '' }
+-  { name: tumblr, url: '' }
+-  { name: youtube, url: '' }
+-  { name: vimeo, url: '' }
+-  { name: vine, url: '' }
+-  { name: 500px, url: '' }
+-  { name: flickr, url: '' }
+-  { name: spotify, url: '' }
+-  { name: steam, url: '' }
+-  { name: wordpress, url: '' }
+-  { name: xing, url: '' }
+-  { name: bitcoin, url: '' }
+-  { name: pocket, url: '' }
+-  { name: applemusic, url: '' }
 
-# Disqus
-discus-identifier: onuohasilver # add your discus identifier
+# Modules Settings
+show_categories: 1
+show_tags: 1
+show_email: 1
+show_rss: 1
+show_comments: 1
+show_menu: 1
+fixed_sidebar: 1
 
-# Tracker
-analytics: # Google Analytics
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: "true"
 
-# Build Settings
+# Serving
+url: ""
+baseurl: ""
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  research:
+    output: true
+    permalink: /research/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: research
+
+# Includes
+include: ["_pages"]
+
+# Outputting
+permalink: /posts/:title
+category_dir: categories
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Conversion
 markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
+excerpt_separator: <!--more-->
 
-paginate: 8
-paginate_path: "/page/:num"
+# Assets Settings
+sass:
+  sass_dir: assets/partials
+  style: compressed
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# Fixes (bundle exec error)
+exclude: [vendor]
+
+# Syntax highlighting
+highlighter: rouge
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+#    css_class: 'highlight'
