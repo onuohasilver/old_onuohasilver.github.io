@@ -4,7 +4,7 @@ date: 2018-12-20
 categories: internship
 ---
 ## 6 Week Internship
-
+![pas](https://i2.wp.com/techmeetupsng.com/wp-content/uploads/2019/01/Data-science-Paylater.jpg?w=960)
 <div style="text-align: justify"> 
 
 The **Paylater** *(now carbon)* arise data science internship has come and gone but the exposure and knowledge I gained through it has come to stay. There was a tweet by the **paylater** handle calling for applications into their data science internship program, a program designed to help young Nigerians who have the desire to get in to the data science field. I quickly applied and within a week or so I got a mail that I’d been accepted into the program. Every day spent reading and working on the challenges was awe-inspiring ; I was exposed to tools that I was conversant with before the program, tools like *bigquery*, *superquery* and the rest of them. The program design made it possible for me to work through the data science pipeline from data wrangling, through data cleaning and visualization and also to model building and evaluation, unfortunately we never quite go to the model implementation aspect which I hope I get to do sometime in the near future. 
