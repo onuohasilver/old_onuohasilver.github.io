@@ -1,9 +1,0 @@
----
-title: "NigFoods Dataset '19"
-date: 2019-05-01
-categories: competition
----
-
-![Nairobi Taxis](http://3lq1ku40fh612q5lii5rfl0n.wpengine.netdna-cdn.com/wp-content/uploads/2016/02/phoenixtraffic.jpg)
-
-## NigFoods Dataset '19

@@ -22,6 +22,7 @@ Great library if you ask me!
 Parsing in the keywords which you want to download- the script runs a google images search, grabs the image urls and starts downloading it to your local drive , saving each batch of pictures with a title of their search keyword.
 
 The *NigFoods Dataset* contains 13 different types of food and 3 different types of snack, which are saved in folders according to their names.
+<!--more-->
 ```
 1.	Spaghetti
 2.	Noodles
